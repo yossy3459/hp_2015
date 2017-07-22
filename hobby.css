@@ -1,0 +1,232 @@
+#pageTop{
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	background: #8C7E79;
+	font-family: "Arial",sans-serif;
+	font-size: 12px;
+	border: 1px solid #8C7E79;
+   	-webkit-transition-duration: 0.4s;
+    	-moz-transition-duration: 0.4s;
+    	transition-duration: 0.4s;
+	z-index: 10;
+}
+
+#pageTop:hover{
+	background:#fff;
+	color: #8C7E79;
+	}
+
+
+body {
+ 	margin: 0;
+ 	padding: 0;
+ 	background-color: #E5E2E0;
+}
+
+#header {
+	background-color: #ffffff;
+	z-index: +1;
+}
+
+#menu {
+	background-color: #ffffff;
+	z-index: +1;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+div[id$="linkd"] {
+
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+div[id$="link"] {
+	margin-top: -50px;
+	padding-top: 50px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+div {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+
+
+#contents {
+	width: 1010px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+}
+
+#navi {
+    width: 160px;
+    float: left;
+    z-index: +1;
+    margin-top: 5px;
+}
+
+#navi li {
+    position: relative;
+    font-size: 93%;
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 1px 0px 1px 0px;
+    
+}
+#navi li a {
+    list-style-type: none;
+    display: block;
+    padding: 15px 15px 15px 15px;
+    margin-left: -35px;
+    font-size: 12px;
+    font-family: "Arial","ÉÅÉCÉäÉI","ÉqÉâÉMÉmäpÉS Pro W3","ÇlÇr ÇoÉSÉVÉbÉN",sans-serif;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #8C7E79;
+    background: #8C7E79;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#navi li a:hover {
+    box-shadow: none;
+    color: #8C7E79;
+    background: #fff;
+    border: 1px solid #8C7E79;
+}
+
+
+#navi li:first-of-type > a {
+    -webkit-border-radius: 7px 7px 0 0;
+    -moz-border-radius: 7px 7px 0 0;
+    border-radius: 7px 7px 0 0;
+}
+#navi li:last-of-type > a {
+    -webkit-border-radius: 0 0 7px 7px;
+    -moz-border-radius: 0 0 7px 7px;
+    border-radius: 0 0 7px 7px;
+}
+#navi li:hover > ul {
+    display: block;
+}
+
+#navi ul {
+    width: 160px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 193px;
+    padding-left: 3px;
+    font-size: 108%;
+    z-index: +1;
+}
+
+#site ul  {
+	width: 160px;
+	display: none;
+    	position: absolute;
+    	top: 0;
+    	left: 390px;
+    	padding-left: 3px;
+    	font-size: 108%;
+   }
+
+	
+
+
+div#article{	
+	width: 800px;
+	margin-left: 205px;
+	margin-right: 5px;
+	margin-top: 5px;
+	font-family:"Arial","ÉÅÉCÉäÉI","ÉqÉâÉMÉmäpÉS Pro W3","ÇlÇr ÇoÉSÉVÉbÉN",sans-serif;
+}
+
+#main  {
+	background-color: #ffffff;
+	width: 800px;
+	border: solid 5px blue;
+	padding : 15px 50px;
+	margin-bottom: 30px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+h1 {
+	position: relative; 
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	font: bold 30px/1.6 HGPënâpäp∫ﬁºØ∏UB, sans-serif; 
+	text-align: center; 
+	color: #333; 
+	background: #f0e800;
+	 -webkit-transform: rotate(-3deg) skew(-3deg);
+ 	 -moz-transform: rotate(-3deg) skew(-3deg);
+	 -o-transform: rotate(-3deg) skew(-3deg);
+	 -ms-transform: rotate(-3deg) skew(-3deg);
+	 transform: rotate(-3deg) skew(-3deg);
+	text-shadow: 2px 2px 0 rgba(255,255,255,1);
+	width: 500px;
+	box-shadow: 3px 3px 3px rgba(0,0,255,0.5);
+} 
+
+
+
+h2 {
+  	position: relative;
+  	color: #ffffff;
+  	background: blue;
+  	font-size: 22px;
+  	line-height: 1;
+  	margin: 30px 20px 0px -15px;
+  	padding: 14px 5px 10px 50px;
+	text-shadow: 2px 2px 2px #111111;
+  	border-radius: 22px 0 0 22px;
+}
+
+h2:before {
+  	content: "";
+  	position: absolute;
+  	background: yellow;
+  	top: 50%;
+  	left: 14px;
+  	margin-top : -10px;
+  	height: 20px;
+  	width: 20px;
+  	border-radius: 50%;
+  	box-shadow: 1px 1px 1px #777 inset;
+}
+
+h2:after {
+  	content: "";
+  	position: absolute;
+  	top: 0;
+  	right: -22px;
+  	height: 0;
+  	width: 0;
+  	border: 23px solid blue;
+  	border-right-color: transparent;
+}
+ 
+
+#copyright {
+	text-align: right;
+	font-size: 10px;
+}
+
+
+img { width: 100%; }

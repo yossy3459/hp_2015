@@ -1,0 +1,66 @@
+body {
+ 	background-image: url(back.jpg);
+ 	background-repeat: repeat;
+ 	background-color: #FFFFFF;
+ 	margin: 0;
+ 	padding: 0;
+}
+
+#main {	
+	margin: 0 auto;
+	padding-bottom: 20px; 
+	width: 1000px;
+	border: 2px #8C7E79 solid;
+	background-color: #ffffff;
+}
+
+#main:first-child{
+  border-radius: 5px 0 0 5px;
+}
+
+#main:last-child{
+  border-radius: 0 5px 5px 0;
+}
+
+#main h1 { 
+	background: url(h1back.jpg);
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 70px;
+	color: white;
+ 	font-weight: bold;
+ 	font-family: "Arial Black", sans-serif;
+ 	font-variant: small-caps;
+ 	text-shadow: 2px 2px 5px #aaaaaa;
+ 	margin: 0;
+}
+
+#main h2{
+ 	color: blue;
+ 	font-size: 20px;
+ 	font-family: "メイリオ", sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#main ul {	
+	font-family: sans-serif;
+	text-align: center;
+	list-style-position: inside;
+	background-color: #ffffff;
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	border: dashed 2px #aaaaaa;
+	padding: 30px;
+	box-shadow: 2px 2px 5px #aaaaaa;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family: "HG丸ｺﾞｼｯｸM-PRO",sans-serif;
+}
+
+p {	font-family: sans-serif;
+	text-align: right;
+	font-size: 16px;
+}
